@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <h1>FORMULARIO CONTACTO</h1>
+<form method="post" action="datosenvia.php">
+    <label>Nombre Compelto:</label><br>
+    <input type="text" size="30" title="ingresa tu nombre completo" name="nombre" autofocus required/><br>
+    <label>Correo Electronico:</label><br>
+    <input type="email" placeholder="ingrse email:usuario@dominio.com " size="40" title="escriba su email" name="mail" required/><br>
+
+    <input type="date" name="fechanec" title="ingrese fecha de nacimiento"/><br>
+
+    <br>
+    <label>Deslice barra y coloque grado de satisfaccion de servicio</label><br>
+    <input type="range" min="1" max="10" title="deslice barra para ingresaar grado de satisfaccion" name="barra"/>
+    <br>
+    <label>Seleccion color preferido</label><br>
+    <input type="color" value="#FFFF00" title="seleccione su color preferido" name="color preferido" name="color"/>
+    <br>
+    <br>
+    <label>Seleccione archivo</label><br>
+    <input type="file" name="archivo"/>
+    <br><br><br>
+    <input type="submit" value="Enviar"
+</form>
+</body>
+</html>
